@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "portfolio", "run", "dev"],
+      "port": 5174
+    },
+    {
+      "name": "toji",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 3000
+    },
+    {
+      "name": "dayflow",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "dayflow", "run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "dayflow-backend",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--experimental-strip-types", "dayflow/backend/src/server.ts"],
+      "port": 5000
+    },
+    {
+      "name": "nlams-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "nlams-platform", "run", "dev"],
+      "port": 5175
+    }
+  ]
+}

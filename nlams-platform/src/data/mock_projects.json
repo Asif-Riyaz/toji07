@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "National Highway Corridor", "total_hectares": 5000, "budget": 1000000000 },
+  { "id": 2, "name": "Green Energy Park", "total_hectares": 2000, "budget": 500000000 },
+  { "id": 3, "name": "High-Speed Rail Zone", "total_hectares": 3000, "budget": 2000000000 }
+]

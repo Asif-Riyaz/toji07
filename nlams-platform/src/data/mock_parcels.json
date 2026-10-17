@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "cadastral_id": "ULPIN-001",
+    "owner_name": "Rajesh Kumar",
+    "geometry": "POLYGON((78.9 20.5, 78.91 20.5, 78.91 20.51, 78.9 20.51, 78.9 20.5))",
+    "status": "acquired"
+  },
+  {
+    "id": 2,
+    "cadastral_id": "ULPIN-002",
+    "owner_name": "Sita Devi",
+    "geometry": "POLYGON((78.92 20.52, 78.93 20.52, 78.93 20.53, 78.92 20.53, 78.92 20.52))",
+    "status": "pending"
+  }
+]
